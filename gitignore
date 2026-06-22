@@ -1,0 +1,47 @@
+# ---- Skompilowane pliki wykonywalne ----
+aplikacja
+aplikacja.exe
+*.exe
+*.out
+a.out
+
+# ---- Pliki obiektowe / pośrednie kompilacji ----
+*.o
+*.obj
+*.gch
+*.pch
+
+# ---- Biblioteki ----
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# ---- Debug ----
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# ---- Katalogi build ----
+build/
+bin/
+obj/
+out/
+
+# ---- Edytory / IDE ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- System operacyjny ----
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+# macOS
+.DS_Store
+# Linux
+*~
+.directory
